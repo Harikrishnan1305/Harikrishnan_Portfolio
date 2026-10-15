@@ -1,6 +1,8 @@
 # Node modules - never commit these
 node_modules/
-react-version/node_modules/
+
+# React version - not needed in this repo
+react-version/
 
 # Build outputs
 dist/

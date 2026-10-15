@@ -1,0 +1,1870 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ═══ SEO META TAGS ═══ -->
+    <title>Harikrishnan S | AI &amp; Data Science Portfolio</title>
+    <meta
+      name="description"
+      content="Harikrishnan S — AI &amp; Data Science undergraduate, Python Developer, and ML Enthusiast. Explore projects, skills, certifications, and experience."
+    />
+    <meta
+      name="keywords"
+      content="Harikrishnan, AI Developer, Data Science, Machine Learning, Python, Full Stack Java, Portfolio, Chennai, Prathyusha Engineering"
+    />
+    <meta name="author" content="Harikrishnan S" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#8b5cf6" />
+
+    <!-- ═══ OPEN GRAPH ═══ -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Harikrishnan S | AI &amp; Data Science Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="AI &amp; Data Science undergraduate building intelligent, scalable applications. Python · ML · Full Stack Java · Data Analytics."
+    />
+    <meta property="og:url" content="https://harikrishnan.dev" />
+    <meta property="og:site_name" content="Harikrishnan Portfolio" />
+
+    <!-- ═══ TWITTER CARD ═══ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Harikrishnan S | AI &amp; Data Science Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="AI &amp; Data Science Undergraduate | Python Developer | ML Enthusiast"
+    />
+
+    <!-- ═══ FONTS (Inter + Poppins + Dancing Script) ═══ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ═══ ICONS ═══ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+
+    <!-- ═══ STYLESHEET ═══ -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ━━━━ NAVBAR ━━━━ -->
+    <nav
+      class="navbar"
+      id="navbar"
+      role="navigation"
+      aria-label="Main navigation"
+    >
+      <div class="container navbar__inner">
+        <!-- Script-font cursive logo -->
+        <a href="#home" class="navbar__logo" aria-label="Harikrishnan Home">
+          <span class="logo-initial">H</span>arikrishnan S
+        </a>
+
+        <ul class="navbar__links" id="navLinks" role="menubar">
+          <li role="none">
+            <a href="#home" class="nav-link active" role="menuitem">Home</a>
+          </li>
+          <li role="none">
+            <a href="#about" class="nav-link" role="menuitem">About</a>
+          </li>
+          <li role="none">
+            <a href="#skills" class="nav-link" role="menuitem">Skills</a>
+          </li>
+          <li role="none">
+            <a href="#projects" class="nav-link" role="menuitem">Projects</a>
+          </li>
+          <li role="none">
+            <a href="#certifications" class="nav-link" role="menuitem">Certs</a>
+          </li>
+          <li role="none">
+            <a href="#experience" class="nav-link" role="menuitem"
+              >Experience</a
+            >
+          </li>
+          <li role="none">
+            <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+          </li>
+        </ul>
+
+        <button
+          class="navbar__theme-toggle"
+          id="themeToggle"
+          aria-label="Switch to light mode"
+          title="Toggle dark/light mode"
+        >
+          <span class="theme-icon" id="themeIcon">🌙</span>
+        </button>
+
+        <button
+          class="navbar__hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ━━━━ HERO ━━━━ -->
+    <section class="hero" id="home" aria-label="Hero section">
+      <!-- Decorative grid accent tiles -->
+      <div
+        class="grid-accent"
+        aria-hidden="true"
+        style="width: 200px; height: 200px; top: 8%; right: 2%"
+      ></div>
+      <div
+        class="grid-accent"
+        aria-hidden="true"
+        style="width: 150px; height: 150px; bottom: 15%; left: 1%"
+      ></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__greeting reveal">Hi, I'm</p>
+          <h1 class="hero__name reveal">
+            <span class="gradient-text">Harikrishnan S</span>
+          </h1>
+
+          <div class="hero__typing-wrap reveal" aria-live="polite">
+            <span class="hero__typing-label">I'm a </span>
+            <span class="hero__typed" id="heroTyped"></span>
+            <span class="hero__cursor" aria-hidden="true"></span>
+          </div>
+
+          <div class="hero__badges reveal" aria-label="Roles">
+            <span class="hero-badge">☕Java Developer</span>
+            <span class="hero-badge">🌐💻 Full Stack Web Developer</span>
+            <span class="hero-badge">🤖 AI Developer</span>
+            <!-- <span class="hero-badge">📊 Data Scientist</span> -->
+          </div>
+
+          <p class="hero__intro reveal">
+            I build intelligent, data-driven applications and scalable
+            full-stack solutions.<br />
+            Passionate about turning raw data into meaningful insights and
+            real-world AI products.
+          </p>
+
+          <div class="hero__socials reveal">
+            <a
+              href="https://github.com/Harikrishnan1305"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile"
+              class="social-icon"
+            >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+              class="social-icon"
+            >
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a
+              href="mailto:harikrishnan994089@gmail.com"
+              aria-label="Send email"
+              class="social-icon"
+            >
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="hero__buttons reveal">
+            <a href="#contact" class="btn btn--primary">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i> Contact Me
+            </a>
+            <a
+              href="./assets/Harikrishnan_1_1Resume.pdf"
+              download="Harikrishnan_Resume.pdf"
+              class="btn btn--outline"
+            >
+              <i class="fas fa-download" aria-hidden="true"></i> Download CV
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="hero__avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-img">
+              <img src="assets/harikrishnan-photo.jpg" alt="Harikrishnan S" />
+            </div>
+          </div>
+          <span class="floating-badge badge-1">Java ☕</span>
+          <span class="floating-badge badge-2">ML 🤖</span>
+          <span class="floating-badge badge-3">Data 📊</span>
+        </div>
+      </div>
+
+      <a href="#loves" class="scroll-down" aria-label="Scroll to next section">
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ━━━━ THINGS I LOVE ━━━━ -->
+    <section class="section loves" id="loves" aria-label="Things I love">
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">What Drives Me</span>
+        </div>
+        <h2 class="section__title reveal">
+          Things I <span class="gradient-text">Love</span>
+        </h2>
+        <p class="section__subtitle reveal">
+          What drives my passion for technology
+        </p>
+
+        <div class="loves__grid">
+          <div class="glass-card love-card reveal">
+            <div class="love-card__icon-badge" aria-hidden="true">💻</div>
+            <h3>Full Stack Development</h3>
+            <p>
+              Crafting end-to-end web applications with clean frontend UIs and
+              robust backend APIs. I enjoy bridging the gap between users, data,
+              and business logic.
+            </p>
+          </div>
+          <div class="glass-card love-card reveal">
+            <div class="love-card__icon-badge" aria-hidden="true">🤖</div>
+            <h3>Data Science &amp; ML</h3>
+            <p>
+              Building predictive models and extracting meaningful insights from
+              complex datasets. From preprocessing to deployment, I love every
+              step of the ML pipeline.
+            </p>
+          </div>
+          <div class="glass-card love-card reveal">
+            <div class="love-card__icon-badge" aria-hidden="true">⚙️</div>
+            <h3>Automation &amp; Problem Solving</h3>
+            <p>
+              Writing elegant code to automate repetitive tasks and solve
+              real-world problems. Every bug fixed and process optimised brings
+              genuine satisfaction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ ABOUT ME (with tabbed interface) ━━━━ -->
+    <section class="section about" id="about" aria-label="About me">
+      <!-- Decorative grid accent -->
+      <div
+        class="grid-accent"
+        aria-hidden="true"
+        style="width: 180px; height: 180px; top: 5%; right: 0%"
+      ></div>
+
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">Get To Know Me</span>
+        </div>
+        <h2 class="section__title reveal">
+          About <span class="gradient-text">Me</span>
+        </h2>
+
+        <div class="about__inner">
+          <!-- ── Left: Photo + Stats ── -->
+          <div class="about__photo-col reveal">
+            <div
+              class="photo-frame"
+              role="img"
+              aria-label="Harikrishnan S profile photo"
+            >
+              <img
+                src="assets/harikrishnan-photo.jpg"
+                alt="Harikrishnan S — AI &amp; Data Science Developer"
+                class="about-photo"
+                loading="eager"
+                width="280"
+                height="370"
+              />
+            </div>
+            <div class="about__stats" aria-label="Quick stats">
+              <div class="stat">
+                <span class="stat__number">6+</span>
+                <span class="stat__label">Projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat__number">3</span>
+                <span class="stat__label">Internships</span>
+              </div>
+              <div class="stat">
+                <span class="stat__number">10+</span>
+                <span class="stat__label">Certs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Right: Tabbed Content ── -->
+          <div class="about__tabs-wrap reveal">
+            <!-- Tab navigation -->
+            <div
+              class="about__tab-nav"
+              role="tablist"
+              aria-label="About sections"
+            >
+              <button
+                class="tab-btn active"
+                id="tab-btn-skills"
+                role="tab"
+                aria-selected="true"
+                aria-controls="tab-skills"
+                data-tab="skills"
+              >
+                Skills
+              </button>
+              <button
+                class="tab-btn"
+                id="tab-btn-education"
+                role="tab"
+                aria-selected="false"
+                aria-controls="tab-education"
+                data-tab="education"
+              >
+                Education
+              </button>
+              <button
+                class="tab-btn"
+                id="tab-btn-experience"
+                role="tab"
+                aria-selected="false"
+                aria-controls="tab-experience"
+                data-tab="experience"
+              >
+                Experience
+              </button>
+            </div>
+
+            <!-- ── Skills Tab ── -->
+            <div
+              class="tab-panel active"
+              id="tab-skills"
+              role="tabpanel"
+              aria-labelledby="tab-btn-skills"
+            >
+              <p>
+                I'm <strong>Harikrishnan S</strong>, a final-year B.Tech student
+                in <strong>Artificial Intelligence and Data Science</strong> at
+                Prathyusha Engineering College, Chennai. I have a strong
+                foundation in Python, Java, SQL, machine learning, and
+                full-stack web development.
+              </p>
+              <p>
+                I am passionate about building scalable software solutions and
+                AI-driven applications. Having completed internships in both AI
+                development and machine learning, I bring hands-on experience to
+                every project I work on.
+              </p>
+              <p>
+                Seeking an entry-level Software Engineer or Data Scientist role
+                where I can apply my technical skills, grow continuously, and
+                contribute meaningfully to a high-impact team.
+              </p>
+              <div class="skill-pills" aria-label="Core skills">
+                <span class="pill">Java</span>
+                <span class="pill">HTML/CSS</span>
+                <span class="pill">JavaScript</span>
+                <span class="pill">MYSQL</span>
+                <span class="pill">Hibernate</span>
+                <span class="pill">Spring Boot</span>
+                <span class="pill">React.js</span>
+                <span class="pill">Python</span>
+                <span class="pill">OpenCV</span>
+                <span class="pill">Machine Learning</span>
+                <span class="pill">TensorFlow</span>
+                <span class="pill">Data Analytics</span>
+                <span class="pill">Power BI</span>
+              </div>
+            </div>
+
+            <!-- ── Education Tab ── -->
+            <div
+              class="tab-panel"
+              id="tab-education"
+              role="tabpanel"
+              aria-labelledby="tab-btn-education"
+            >
+              <div class="edu-tab-grid">
+                <div class="glass-card edu-card">
+                  <div class="edu-card__icon" aria-hidden="true">🎓</div>
+                  <div class="edu-card__content">
+                    <h3>B.Tech – Artificial Intelligence &amp; Data Science</h3>
+                    <p class="edu-institution">
+                      Prathyusha Engineering College, Chennai
+                    </p>
+                    <p class="edu-duration">
+                      <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                      2022 – 2026
+                    </p>
+                    <p class="edu-note">
+                      Final Year &nbsp;·&nbsp; Anna University Affiliated
+                    </p>
+                  </div>
+                </div>
+                <div class="glass-card edu-card">
+                  <div class="edu-card__icon" aria-hidden="true">📚</div>
+                  <div class="edu-card__content">
+                    <h3>Higher Secondary Certificate – Bio-Maths</h3>
+                    <p class="edu-institution">
+                      Sri Ayyan Vidyashram Higher Secondary School
+                    </p>
+                    <p class="edu-duration">
+                      <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                      2021 – 2022
+                    </p>
+                    <p class="edu-note">Tamil Nadu State Board</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ── Experience Tab ── -->
+            <div
+              class="tab-panel"
+              id="tab-experience"
+              role="tabpanel"
+              aria-labelledby="tab-btn-experience"
+            >
+              <div class="exp-tab-list">
+                <div class="glass-card exp-tab-item">
+                  <div class="exp-tab-item__header">
+                    <div>
+                      <p class="exp-tab-item__role">
+                        Full Stack Web Development Intern
+                      </p>
+                      <p class="exp-tab-item__company">TAP Academy</p>
+                    </div>
+                    <span class="exp-tab-item__date"
+                      ><i class="fas fa-calendar-alt"></i> January – July
+                      2026</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      Developed a full-stack web application adhering to
+                      standard MVC architecture for efficient request handling.
+                    </li>
+                    <li>
+                      Designed a relational database schema for menu rendering,
+                      live order tracking, and session-based cart management.
+                    </li>
+                    <li>
+                      Implemented secure user authentication, role-based access,
+                      and reliable database operations using JDBC.
+                    </li>
+                  </ul>
+                  <div class="project-tags" style="margin-top: 0.75rem">
+                    <span class="tag">Java</span>
+                    <span class="tag">Servlets & JSP</span>
+                    <span class="tag">JDBC</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">MVC Architecture</span>
+                  </div>
+                </div>
+
+                <div class="glass-card exp-tab-item">
+                  <div class="exp-tab-item__header">
+                    <div>
+                      <p class="exp-tab-item__role">AI Developer Intern</p>
+                      <p class="exp-tab-item__company">
+                        IDA – Intelligent Data Analytics
+                      </p>
+                    </div>
+                    <span class="exp-tab-item__date"
+                      ><i class="fas fa-calendar-alt"></i> June – July
+                      2025</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      Developed and deployed AI-powered data pipelines for
+                      intelligent analytics tasks.
+                    </li>
+                    <li>
+                      Built and fine-tuned ML classification and prediction
+                      models for real-world datasets.
+                    </li>
+                    <li>
+                      Collaborated with cross-functional teams to integrate AI
+                      modules into existing workflows.
+                    </li>
+                  </ul>
+                  <div class="project-tags" style="margin-top: 0.75rem">
+                    <span class="tag">Python</span
+                    ><span class="tag">Machine Learning</span
+                    ><span class="tag">Data Pipelines</span
+                    ><span class="tag">AI</span>
+                  </div>
+                </div>
+
+                <div class="glass-card exp-tab-item">
+                  <div class="exp-tab-item__header">
+                    <div>
+                      <p class="exp-tab-item__role">Machine Learning Intern</p>
+                      <p class="exp-tab-item__company">Virtual Tech Services</p>
+                    </div>
+                    <span class="exp-tab-item__date"
+                      ><i class="fas fa-calendar-alt"></i> July – Aug 2024</span
+                    >
+                  </div>
+                  <ul>
+                    <li>
+                      Performed data preprocessing, feature engineering, and
+                      exploratory data analysis.
+                    </li>
+                    <li>
+                      Built and evaluated predictive models using Scikit-learn
+                      and Python libraries.
+                    </li>
+                    <li>
+                      Gained end-to-end ML pipeline experience from raw data to
+                      model evaluation.
+                    </li>
+                  </ul>
+                  <div class="project-tags" style="margin-top: 0.75rem">
+                    <span class="tag">Python</span
+                    ><span class="tag">Scikit-learn</span
+                    ><span class="tag">Pandas</span
+                    ><span class="tag">Matplotlib</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ SKILLS ━━━━ -->
+    <section class="section skills" id="skills" aria-label="Technical skills">
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">What I Know</span>
+        </div>
+        <h2 class="section__title reveal">
+          My <span class="gradient-text">Skills</span>
+        </h2>
+        <p class="section__subtitle reveal">
+          Technologies I work with professionally
+        </p>
+
+        <div class="skills__grid">
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">Languages</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <i class="devicon-java-plain colored" aria-hidden="true"></i
+                ><span>Java</span>
+              </div>
+              <div class="skill-item">
+                <i
+                  class="fas fa-database"
+                  aria-hidden="true"
+                  style="color: #f59e0b; font-size: 1.7rem"
+                ></i
+                ><span>SQL</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-html5-plain colored" aria-hidden="true"></i
+                ><span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-css3-plain colored" aria-hidden="true"></i
+                ><span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <i
+                  class="devicon-javascript-plain colored"
+                  aria-hidden="true"
+                ></i
+                ><span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-python-plain colored" aria-hidden="true"></i
+                ><span>Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">Backend &amp; DB</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <i class="devicon-mysql-plain colored" aria-hidden="true"></i
+                ><span>MySQL</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-spring-plain colored" aria-hidden="true"></i
+                ><span>Spring Boot</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-java-plain colored" aria-hidden="true"></i
+                ><span>Servlets/JSP</span>
+              </div>
+              <div class="skill-item">
+                <i
+                  class="fas fa-link"
+                  aria-hidden="true"
+                  style="color: #8b5cf6; font-size: 1.5rem"
+                ></i
+                ><span>JDBC</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">ML &amp; Data Science</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <i class="devicon-numpy-plain colored" aria-hidden="true"></i
+                ><span>NumPy</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-pandas-plain colored" aria-hidden="true"></i
+                ><span>Pandas</span>
+              </div>
+              <div class="skill-item">
+                <i
+                  class="fas fa-chart-line"
+                  aria-hidden="true"
+                  style="color: #ef4444; font-size: 1.6rem"
+                ></i
+                ><span>Matplotlib</span>
+              </div>
+              <div class="skill-item">
+                <i
+                  class="fas fa-chart-bar"
+                  aria-hidden="true"
+                  style="color: #f2c811; font-size: 1.6rem"
+                ></i
+                ><span>Power BI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category glass-card reveal">
+            <h3 class="skill-category__title">DevOps &amp; VCS</h3>
+            <div class="skill-icons">
+              <div class="skill-item">
+                <i class="devicon-git-plain colored" aria-hidden="true"></i
+                ><span>Git</span>
+              </div>
+              <div class="skill-item">
+                <i
+                  class="devicon-github-plain"
+                  aria-hidden="true"
+                  style="color: #f0f0f0; font-size: 1.8rem"
+                ></i
+                ><span>GitHub</span>
+              </div>
+              <div class="skill-item">
+                <i class="devicon-jupyter-plain colored" aria-hidden="true"></i
+                ><span>Jupyter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ TOOLS ━━━━ -->
+    <section class="section tools" id="tools" aria-label="Development tools">
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">My Toolkit</span>
+        </div>
+        <h2 class="section__title reveal">
+          Dev <span class="gradient-text">Tools</span>
+        </h2>
+        <p class="section__subtitle reveal">My everyday toolkit</p>
+
+        <div class="tools__grid">
+          <div class="tool-card glass-card reveal">
+            <i class="devicon-vscode-plain colored" aria-hidden="true"></i
+            ><span>VS Code</span>
+          </div>
+          <div class="tool-card glass-card reveal">
+            <i
+              class="devicon-github-plain"
+              aria-hidden="true"
+              style="color: #f0f0f0"
+            ></i
+            ><span>GitHub</span>
+          </div>
+          <div class="tool-card glass-card reveal">
+            <i class="devicon-git-plain colored" aria-hidden="true"></i
+            ><span>Git</span>
+          </div>
+          <div class="tool-card glass-card reveal">
+            <i class="devicon-mysql-plain colored" aria-hidden="true"></i
+            ><span>MySQL Workbench</span>
+          </div>
+          <div class="tool-card glass-card reveal">
+            <i
+              class="fas fa-chart-bar"
+              aria-hidden="true"
+              style="color: #f2c811; font-size: 2.4rem"
+            ></i
+            ><span>Power BI</span>
+          </div>
+          <div class="tool-card glass-card reveal">
+            <i class="devicon-jupyter-plain colored" aria-hidden="true"></i
+            ><span>Jupyter / Colab</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ PROJECTS ━━━━ -->
+    <section
+      class="section projects"
+      id="projects"
+      aria-label="Featured projects"
+    >
+      <!-- Decorative grid accent -->
+      <div
+        class="grid-accent"
+        aria-hidden="true"
+        style="width: 200px; height: 200px; bottom: 5%; left: 0%"
+      ></div>
+
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">What I've Built</span>
+        </div>
+        <h2 class="section__title reveal">
+          Featured <span class="gradient-text">Projects</span>
+        </h2>
+        <p class="section__subtitle reveal">
+          Things I've designed, built, and shipped
+        </p>
+
+        <div class="projects__grid">
+          <!-- Project 1 -->
+          <article class="project-card glass-card reveal">
+            <div class="project-card__header">
+              <img
+                src="assets/projects/project1-food-ordering.png"
+                alt="Online Food Ordering System"
+                loading="lazy"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="project-status status-source">Source Code</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Online Food Ordering System</h3>
+              <p>
+                Full-stack web app for ordering food online with user auth,
+                shopping cart, and order management — built during Java
+                internship.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Java</span><span class="tag">Servlets</span
+                ><span class="tag">JDBC</span><span class="tag">MySQL</span
+                ><span class="tag">HTML/CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn--sm btn--primary"
+                  ><i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                  Live Demo</a
+                >
+                <a href="#" class="btn btn--sm btn--ghost"
+                  ><i class="fab fa-github" aria-hidden="true"></i> Source</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card glass-card reveal">
+            <div class="project-card__header">
+              <img
+                src="assets/projects/project2-edu-policy.png"
+                alt="AI in Educational Policy Making"
+                loading="lazy"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="project-status status-progress">Source Code</span>
+            </div>
+            <div class="project-card__body">
+              <h3>AI in Educational Policy Making</h3>
+              <p>
+                ML model analysing educational data to recommend data-driven
+                policy changes for improving student learning outcomes.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span
+                ><span class="tag">Scikit-learn</span
+                ><span class="tag">Pandas</span><span class="tag">NLP</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn--sm btn--primary"
+                  ><i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                  Live Demo</a
+                >
+                <a href="#" class="btn btn--sm btn--ghost"
+                  ><i class="fab fa-github" aria-hidden="true"></i> Source</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card glass-card reveal">
+            <div class="project-card__header">
+              <img
+                src="assets/projects/project3-stroke-prediction.png"
+                alt="Stroke Prediction System"
+                loading="lazy"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="project-status status-source">Source Code</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Stroke Prediction System</h3>
+              <p>
+                ML model predicting stroke risk from patient health metrics
+                using ensemble methods (Random Forest + XGBoost) with high
+                accuracy.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span
+                ><span class="tag">Random Forest</span
+                ><span class="tag">Flask</span
+                ><span class="tag">Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn--sm btn--primary"
+                  ><i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                  Live Demo</a
+                >
+                <a href="#" class="btn btn--sm btn--ghost"
+                  ><i class="fab fa-github" aria-hidden="true"></i> Source</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card glass-card reveal">
+            <div class="project-card__header">
+              <img
+                src="assets/projects/project4-virtual-calc.png"
+                alt="Virtual Calculator"
+                loading="lazy"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="project-status status-source">Source Code</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Virtual Calculator</h3>
+              <p>
+                Gesture-controlled calculator using real-time OpenCV hand
+                tracking integrated with Generative AI for a next-gen UX.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span><span class="tag">OpenCV</span
+                ><span class="tag">MediaPipe</span
+                ><span class="tag">GenAI</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn--sm btn--primary"
+                  ><i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                  Live Demo</a
+                >
+                <a href="#" class="btn btn--sm btn--ghost"
+                  ><i class="fab fa-github" aria-hidden="true"></i> Source</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card glass-card reveal">
+            <div class="project-card__header">
+              <img
+                src="assets/projects/project5-accident-analysis.png"
+                alt="Road Accident Analysis Dashboard"
+                loading="lazy"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="project-status status-progress">Completed</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Road Accident Analysis Dashboard</h3>
+              <p>
+                Interactive dashboard analysing road accident patterns by
+                region, time, and cause using SQL queries and Python
+                visualisation.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span><span class="tag">SQL</span
+                ><span class="tag">Pandas</span
+                ><span class="tag">Power BI</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn--sm btn--primary"
+                  ><i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                  Live Demo</a
+                >
+                <a href="#" class="btn btn--sm btn--ghost"
+                  ><i class="fab fa-github" aria-hidden="true"></i> Source</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card glass-card reveal">
+            <div class="project-card__header">
+              <img
+                src="assets/projects/project6-loan-analysis.png"
+                alt="Banking Loan Analysis System"
+                loading="lazy"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="project-status status-source">Completed</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Banking Loan Analysis System</h3>
+              <p>
+                Comprehensive analysis of banking loan data to identify approval
+                patterns and risk factors using SQL aggregation and Python.
+              </p>
+              <div class="project-tags">
+                <span class="tag">SQL</span><span class="tag">Python</span
+                ><span class="tag">Pandas</span
+                ><span class="tag">Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn--sm btn--primary"
+                  ><i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                  Live Demo</a
+                >
+                <a href="#" class="btn btn--sm btn--ghost"
+                  ><i class="fab fa-github" aria-hidden="true"></i> Source</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ── Featured Project Spotlight ── -->
+        <div class="project-spotlight reveal">
+          <div class="spotlight-label">
+            <span>⭐ Featured Project</span>
+          </div>
+          <div class="glass-card spotlight-card">
+            <div class="spotlight-visual">
+              <!-- Browser mockup frame -->
+              <div class="browser-frame">
+                <div class="browser-frame__bar">
+                  <div class="browser-frame__dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="browser-frame__url">
+                    localhost:8080/food-order
+                  </div>
+                </div>
+                <div class="browser-frame__screen">
+                  <img
+                    src="assets/projects/project1-food-ordering.png"
+                    alt="Online Food Ordering System screenshot"
+                    onerror="
+                      this.parentElement.innerHTML =
+                        '<div class=\'browser-frame__screen-placeholder\'><i class=\'fas fa-laptop-code\' style=\'font-size:3rem;margin-bottom:0.5rem;color:rgba(139,92,246,0.5);\'></i><br/>Online Food Ordering System</div>'
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="spotlight-info">
+              <div
+                class="section-eyebrow"
+                style="justify-content: flex-start; margin-bottom: 0.5rem"
+              >
+                <span class="eyebrow-label">Top Project</span>
+              </div>
+              <h3>Online Food Ordering System</h3>
+              <p>
+                A comprehensive full-stack web application for ordering food
+                online. Features include user authentication, dynamic shopping
+                cart, order management dashboard, and real-time order tracking —
+                built during my Java internship using enterprise technologies.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Java</span
+                ><span class="tag">Servlets/JSP</span
+                ><span class="tag">JDBC</span><span class="tag">MySQL</span
+                ><span class="tag">HTML5/CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn--primary"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a
+                  href="https://github.com/Harikrishnan1305"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn--ghost"
+                  ><i class="fab fa-github"></i> View Source</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ CERTIFICATIONS ━━━━ -->
+    <section
+      class="section certs"
+      id="certifications"
+      aria-label="Certifications"
+    >
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">My Achievements</span>
+        </div>
+        <h2 class="section__title reveal">
+          <span class="gradient-text">Certifications</span>
+        </h2>
+        <p class="section__subtitle reveal">Recognised learning milestones</p>
+
+        <!-- Horizontal thumbnail card list (2 columns) -->
+        <div class="certs__list">
+          <div class="glass-card cert-card-h reveal">
+            <div
+              class="cert-thumb-h"
+              role="button"
+              tabindex="0"
+              aria-label="View Python Programming certificate"
+              onclick="
+                openLightbox(
+                  'assets/GuviCertification - 8180018E7gR0dsj32Z.png',
+                  'Python Programming — GUVI',
+                )
+              "
+              onkeydown="
+                if (event.key === 'Enter' || event.key === ' ')
+                  openLightbox(
+                    'assets/GuviCertification - 8180018E7gR0dsj32Z.png',
+                    'Python Programming — GUVI',
+                  );
+              "
+            >
+              <img
+                src="assets/GuviCertification - 8180018E7gR0dsj32Z.png"
+                alt="GUVI Python Programming Certificate"
+                loading="lazy"
+              />
+              <div class="cert-thumb-h__overlay">
+                <i class="fas fa-expand" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3>Python Programming</h3>
+              <p class="cert-issuer">GUVI</p>
+              <p class="cert-date">2024</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card-h reveal">
+            <div
+              class="cert-thumb-h"
+              role="button"
+              tabindex="0"
+              aria-label="View Python for Data Science certificate"
+              onclick="
+                openLightbox(
+                  'assets/Python_for_data_science image.jpg',
+                  'Python for Data Science — NPTEL',
+                )
+              "
+              onkeydown="
+                if (event.key === 'Enter' || event.key === ' ')
+                  openLightbox(
+                    'assets/Python_for_data_science image.jpg',
+                    'Python for Data Science — NPTEL',
+                  );
+              "
+            >
+              <img
+                src="assets/Python_for_data_science image.jpg"
+                alt="NPTEL Python for Data Science Certificate"
+                loading="lazy"
+              />
+              <div class="cert-thumb-h__overlay">
+                <i class="fas fa-expand" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3>Python for Data Science</h3>
+              <p class="cert-issuer">NPTEL</p>
+              <p class="cert-date">2024</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card-h reveal">
+            <div
+              class="cert-thumb-h"
+              role="button"
+              tabindex="0"
+              aria-label="View Data Everywhere certificate"
+              onclick="
+                openLightbox(
+                  'assets/Coursera R2MDC4F56ZDS_page-0001.jpg',
+                  'Data Everywhere — Google / Coursera',
+                )
+              "
+              onkeydown="
+                if (event.key === 'Enter' || event.key === ' ')
+                  openLightbox(
+                    'assets/Coursera R2MDC4F56ZDS_page-0001.jpg',
+                    'Data Everywhere — Google / Coursera',
+                  );
+              "
+            >
+              <img
+                src="assets/Coursera R2MDC4F56ZDS_page-0001.jpg"
+                alt="Coursera Data Everywhere Certificate"
+                loading="lazy"
+              />
+              <div class="cert-thumb-h__overlay">
+                <i class="fas fa-expand" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3>Data Everywhere</h3>
+              <p class="cert-issuer">Google / Coursera</p>
+              <p class="cert-date">2024</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card-h reveal">
+            <div
+              class="cert-thumb-h"
+              role="button"
+              tabindex="0"
+              aria-label="View Power BI Virtual Experience certificate"
+              onclick="
+                openLightbox(
+                  'assets/a87GpgE6tiku7q3gu_4sLyCPgmsy8DA6Dh3_rwphvkD3RtFdK9a82_1743230725805_completion_certificate_page-0001.jpg',
+                  'Power BI Virtual Experience — PwC / Forage',
+                )
+              "
+              onkeydown="
+                if (event.key === 'Enter' || event.key === ' ')
+                  openLightbox(
+                    'assets/a87GpgE6tiku7q3gu_4sLyCPgmsy8DA6Dh3_rwphvkD3RtFdK9a82_1743230725805_completion_certificate_page-0001.jpg',
+                    'Power BI Virtual Experience — PwC / Forage',
+                  );
+              "
+            >
+              <img
+                src="assets/a87GpgE6tiku7q3gu_4sLyCPgmsy8DA6Dh3_rwphvkD3RtFdK9a82_1743230725805_completion_certificate_page-0001.jpg"
+                alt="PwC Forage Power BI Certificate"
+                loading="lazy"
+              />
+              <div class="cert-thumb-h__overlay">
+                <i class="fas fa-expand" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3>Power BI Virtual Experience</h3>
+              <p class="cert-issuer">PwC via Forage</p>
+              <p class="cert-date">2024</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card-h reveal">
+            <div
+              class="cert-thumb-h"
+              role="button"
+              tabindex="0"
+              aria-label="View Gemini for Data Scientists certificate"
+              onclick="
+                openLightbox(
+                  'assets/GEMINI FOR DATA SCIENTISTS AND ANALYSTS.png',
+                  'Gemini for Data Scientists &amp; Analysts — Google',
+                )
+              "
+              onkeydown="
+                if (event.key === 'Enter' || event.key === ' ')
+                  openLightbox(
+                    'assets/GEMINI FOR DATA SCIENTISTS AND ANALYSTS.png',
+                    'Gemini for Data Scientists &amp; Analysts — Google',
+                  );
+              "
+            >
+              <img
+                src="assets/GEMINI FOR DATA SCIENTISTS AND ANALYSTS.png"
+                alt="Gemini for Data Scientists Certificate"
+                loading="lazy"
+              />
+              <div class="cert-thumb-h__overlay">
+                <i class="fas fa-expand" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3>Gemini for Data Scientists</h3>
+              <p class="cert-issuer">Google</p>
+              <p class="cert-date">2025</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card-h reveal">
+            <div
+              class="cert-thumb-h"
+              role="button"
+              tabindex="0"
+              aria-label="View Google Cloud BigQuery ML badge"
+              onclick="
+                openLightbox(
+                  'assets/google cloud bigquery for ml badge.png',
+                  'BigQuery ML Badge — Google Cloud',
+                )
+              "
+              onkeydown="
+                if (event.key === 'Enter' || event.key === ' ')
+                  openLightbox(
+                    'assets/google cloud bigquery for ml badge.png',
+                    'BigQuery ML Badge — Google Cloud',
+                  );
+              "
+            >
+              <img
+                src="assets/google cloud bigquery for ml badge.png"
+                alt="Google Cloud BigQuery for ML Badge"
+                loading="lazy"
+              />
+              <div class="cert-thumb-h__overlay">
+                <i class="fas fa-expand" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3>BigQuery for ML</h3>
+              <p class="cert-issuer">Google Cloud</p>
+              <p class="cert-date">2025</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card-h reveal">
+            <div
+              class="cert-thumb-h"
+              role="button"
+              tabindex="0"
+              aria-label="View Cybersecurity Analyst certificate"
+              onclick="
+                openLightbox(
+                  'assets/cybersecurity analyst certificate_page-0001.jpg',
+                  'Cybersecurity Analyst Certificate',
+                )
+              "
+              onkeydown="
+                if (event.key === 'Enter' || event.key === ' ')
+                  openLightbox(
+                    'assets/cybersecurity analyst certificate_page-0001.jpg',
+                    'Cybersecurity Analyst Certificate',
+                  );
+              "
+            >
+              <img
+                src="assets/cybersecurity analyst certificate_page-0001.jpg"
+                alt="Cybersecurity Analyst Certificate"
+                loading="lazy"
+              />
+              <div class="cert-thumb-h__overlay">
+                <i class="fas fa-expand" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3>Cybersecurity Analyst</h3>
+              <p class="cert-issuer">Microsoft / Forage</p>
+              <p class="cert-date">2025</p>
+            </div>
+          </div>
+
+          <div class="glass-card cert-card-h reveal">
+            <div
+              class="cert-thumb-h"
+              role="button"
+              tabindex="0"
+              aria-label="View Microsoft Learn Achievement"
+              onclick="
+                openLightbox(
+                  'assets/Achievements 1- harikrishnans-7319 _ Microsoft Learn_page-0001.jpg',
+                  'Microsoft Learn Achievement',
+                )
+              "
+              onkeydown="
+                if (event.key === 'Enter' || event.key === ' ')
+                  openLightbox(
+                    'assets/Achievements 1- harikrishnans-7319 _ Microsoft Learn_page-0001.jpg',
+                    'Microsoft Learn Achievement',
+                  );
+              "
+            >
+              <img
+                src="assets/Achievements 1- harikrishnans-7319 _ Microsoft Learn_page-0001.jpg"
+                alt="Microsoft Learn Achievement 1"
+                loading="lazy"
+              />
+              <div class="cert-thumb-h__overlay">
+                <i class="fas fa-expand" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h3>Microsoft Learn Achievement</h3>
+              <p class="cert-issuer">Microsoft</p>
+              <p class="cert-date">2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ EXPERIENCE ━━━━ -->
+    <!-- ━━━━ EXPERIENCE ━━━━ -->
+    <section
+      class="section experience"
+      id="experience"
+      aria-label="Work experience"
+    >
+      <!-- Decorative grid accent -->
+      <div
+        class="grid-accent"
+        aria-hidden="true"
+        style="width: 180px; height: 180px; top: 10%; right: 2%"
+      ></div>
+
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">Where I've Worked</span>
+        </div>
+        <h2 class="section__title reveal">
+          Work <span class="gradient-text">Experience</span>
+        </h2>
+        <p class="section__subtitle reveal">
+          Where I've applied my skills professionally
+        </p>
+
+        <div class="timeline" role="list">
+          <div class="timeline__item reveal" role="listitem">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card glass-card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">
+                    Full Stack Web Development Intern
+                  </h3>
+                  <p class="timeline__company">TAP Academy</p>
+                </div>
+                <span class="timeline__date"
+                  ><i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                  January – July 2026</span
+                >
+              </div>
+              <ul class="timeline__points" aria-label="Responsibilities">
+                <li>
+                  Developed a full-stack web application (Online Food Ordering
+                  System) adhering to MVC architecture for efficient request
+                  handling[cite: 1].
+                </li>
+                <li>
+                  Designed relational database schemas for menu rendering, live
+                  order tracking, and session-based cart management[cite: 1].
+                </li>
+                <li>
+                  Implemented secure user authentication, role-based access
+                  control, and database operations using JDBC[cite: 1].
+                </li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="tag">Java</span>
+                <span class="tag">Servlets & JSP</span>
+                <span class="tag">JDBC</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">MVC</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal" role="listitem">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card glass-card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">AI Developer Intern</h3>
+                  <p class="timeline__company">
+                    IDA – Intelligent Data Analytics
+                  </p>
+                </div>
+                <span class="timeline__date"
+                  ><i class="fas fa-calendar-alt" aria-hidden="true"></i> June –
+                  July 2025</span
+                >
+              </div>
+              <ul class="timeline__points" aria-label="Responsibilities">
+                <li>
+                  Developed and deployed AI-powered data pipelines for
+                  intelligent analytics tasks.
+                </li>
+                <li>
+                  Built and fine-tuned ML classification and prediction models
+                  for real-world datasets.
+                </li>
+                <li>
+                  Collaborated with cross-functional teams to integrate AI
+                  modules into existing workflows.
+                </li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="tag">Python</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Data Pipelines</span>
+                <span class="tag">AI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal" role="listitem">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card glass-card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__role">Machine Learning Intern</h3>
+                  <p class="timeline__company">Virtual Tech Services</p>
+                </div>
+                <span class="timeline__date"
+                  ><i class="fas fa-calendar-alt" aria-hidden="true"></i> July –
+                  Aug 2024</span
+                >
+              </div>
+              <ul class="timeline__points" aria-label="Responsibilities">
+                <li>
+                  Performed data preprocessing, feature engineering, and
+                  exploratory data analysis.
+                </li>
+                <li>
+                  Built and evaluated predictive models using Scikit-learn and
+                  Python libraries.
+                </li>
+                <li>
+                  Gained end-to-end ML pipeline experience from raw data to
+                  model evaluation.
+                </li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="tag">Python</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Matplotlib</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ EDUCATION ━━━━ -->
+    <section class="section education" id="education" aria-label="Education">
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">My Learning Path</span>
+        </div>
+        <h2 class="section__title reveal">
+          My <span class="gradient-text">Education</span>
+        </h2>
+        <p class="section__subtitle reveal">
+          Academic milestones that shaped my thinking
+        </p>
+
+        <div class="education__grid">
+          <div class="glass-card edu-card reveal">
+            <div class="edu-card__icon" aria-hidden="true">🎓</div>
+            <div class="edu-card__content">
+              <h3>B.Tech – Artificial Intelligence &amp; Data Science</h3>
+              <p class="edu-institution">
+                Prathyusha Engineering College, Chennai
+              </p>
+              <p class="edu-duration">
+                <i class="fas fa-calendar-alt" aria-hidden="true"></i> 2022 –
+                2026
+              </p>
+              <p class="edu-note">
+                Final Year &nbsp;·&nbsp; Anna University Affiliated
+              </p>
+            </div>
+          </div>
+          <div class="glass-card edu-card reveal">
+            <div class="edu-card__icon" aria-hidden="true">📚</div>
+            <div class="edu-card__content">
+              <h3>Higher Secondary Certificate – Bio-Maths</h3>
+              <p class="edu-institution">
+                Sri Ayyan Vidyashram Higher Secondary School
+              </p>
+              <p class="edu-duration">
+                <i class="fas fa-calendar-alt" aria-hidden="true"></i> 2021 –
+                2022
+              </p>
+              <p class="edu-note">Tamil Nadu State Board</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ CONTACT ━━━━ -->
+    <section class="section contact" id="contact" aria-label="Contact">
+      <div class="container">
+        <div class="section-eyebrow reveal">
+          <img
+            src="assets/Tools/section-title-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="eyebrow-label">Let's Connect</span>
+        </div>
+        <h2 class="section__title reveal">
+          Get In <span class="gradient-text">Touch</span>
+        </h2>
+        <p class="section__subtitle reveal">
+          Let's build something amazing together
+        </p>
+
+        <div class="contact__inner">
+          <div class="contact__form-wrap reveal">
+            <form
+              id="contactForm"
+              class="contact__form glass-card"
+              novalidate
+              aria-label="Contact form"
+            >
+              <h3 class="form-heading">Send a Message</h3>
+
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="John Doe"
+                  required
+                  autocomplete="name"
+                />
+                <span
+                  class="form-error"
+                  id="nameError"
+                  role="alert"
+                  aria-live="polite"
+                ></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@email.com"
+                  required
+                  autocomplete="email"
+                />
+                <span
+                  class="form-error"
+                  id="emailError"
+                  role="alert"
+                  aria-live="polite"
+                ></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Internship Opportunity"
+                  required
+                />
+                <span
+                  class="form-error"
+                  id="subjectError"
+                  role="alert"
+                  aria-live="polite"
+                ></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Hi Harikrishnan, I'd love to connect…"
+                  required
+                ></textarea>
+                <span
+                  class="form-error"
+                  id="messageError"
+                  role="alert"
+                  aria-live="polite"
+                ></span>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn--primary btn--full"
+                id="submitBtn"
+              >
+                <i class="fas fa-paper-plane" aria-hidden="true"></i> Send
+                Message
+              </button>
+              <div
+                id="formStatus"
+                class="form-status"
+                role="alert"
+                aria-live="polite"
+              ></div>
+            </form>
+          </div>
+
+          <div class="contact__info reveal">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm currently open to internship and entry-level opportunities.
+              Whether you have a project idea, a question, or just want to say
+              hi — my inbox is always open!
+            </p>
+
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:harikrishnan994089@gmail.com"
+                  >harikrishnan994089@gmail.com</a
+                >
+                <br />
+                <a
+                  href="mailto:harikrishnan052005@gmail.com"
+                  style="
+                    font-size: 0.9em;
+                    color: var(--c-text-muted);
+                    display: inline-block;
+                    margin-top: 4px;
+                  "
+                  >harikrishnan052005@gmail.com (Alt)</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item__icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+916382898830">+91 6382898830</a><br />
+                <a
+                  href="tel:+919940893321"
+                  style="
+                    font-size: 0.9em;
+                    color: var(--c-text-muted);
+                    display: inline-block;
+                    margin-top: 4px;
+                  "
+                  >+91 9940893321 (Alt)</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <span class="contact-label">Location</span>
+                <span>Chennai, Tamil Nadu, India</span>
+              </div>
+            </div>
+
+            <div class="contact__socials">
+              <a
+                href="https://github.com/Harikrishnan1305"
+                target="_blank"
+                rel="noopener"
+                class="social-icon"
+                aria-label="GitHub profile"
+              >
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://linkedin.com/"
+                target="_blank"
+                rel="noopener"
+                class="social-icon"
+                aria-label="LinkedIn profile"
+              >
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a
+                href="mailto:harikrishnan994089@gmail.com"
+                class="social-icon"
+                aria-label="Send email"
+              >
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━ FOOTER ━━━━ -->
+    <footer class="footer" role="contentinfo">
+      <div class="container footer__inner">
+        <p class="footer__copy">
+          © <span id="year"></span>
+          <span class="gradient-text">Harikrishnan S</span>
+          &nbsp;— Designed &amp; built from scratch with HTML, CSS &amp; JS ❤️
+        </p>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- SCROLL-TO-TOP -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll back to top">
+      <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- CERTIFICATE LIGHTBOX -->
+    <div
+      class="cert-lightbox"
+      id="certLightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Certificate viewer"
+    >
+      <div class="cert-lightbox__inner">
+        <button
+          class="cert-lightbox__close"
+          id="certLightboxClose"
+          aria-label="Close certificate viewer"
+        >
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+        <img
+          class="cert-lightbox__img"
+          id="certLightboxImg"
+          src=""
+          alt="Certificate"
+        />
+        <p class="cert-lightbox__caption" id="certLightboxCaption"></p>
+      </div>
+    </div>
+
+    <!-- Lightbox functions (inline before script.js) -->
+    <script>
+      function openLightbox(src, caption) {
+        var lb = document.getElementById("certLightbox");
+        var img = document.getElementById("certLightboxImg");
+        var cap = document.getElementById("certLightboxCaption");
+        img.src = src;
+        img.alt = caption;
+        cap.textContent = caption;
+        lb.classList.add("open");
+        document.body.style.overflow = "hidden";
+      }
+      function closeLightbox() {
+        document.getElementById("certLightbox").classList.remove("open");
+        document.body.style.overflow = "";
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .getElementById("certLightboxClose")
+          .addEventListener("click", closeLightbox);
+        document
+          .getElementById("certLightbox")
+          .addEventListener("click", function (e) {
+            if (e.target === this) closeLightbox();
+          });
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") closeLightbox();
+        });
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

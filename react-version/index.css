@@ -1,0 +1,60 @@
+/*
+ * Tailwind CSS base styles
+ */
+@tailwind base;
+
+/*
+ * Tailwind CSS components
+ */
+@tailwind components;
+
+/*
+ * Tailwind CSS utilities
+ */
+@tailwind utilities;
+
+/* Cursor glow effect */
+.cursor-glow {
+  position: relative;
+  /* Add glowing effect on cursor focus */
+  outline: 2px solid transparent;
+  transition: outline-color 0.3s ease;
+}
+
+dark .cursor-glow {
+  outline-color: #6b38ff;
+}
+
+.light .cursor-glow {
+  outline-color: #1e40af;
+}
+
+/* Floating shapes animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.shape {
+  animation: float 3s ease-in-out infinite;
+  position: absolute;
+  pointer-events: none;
+}
+
+.shape.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(108, 56, 255, 0.1);
+}
+
+.dark .shape.circle {
+  background: rgba(46, 82, 191, 0.2);
+}

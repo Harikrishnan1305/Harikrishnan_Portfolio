@@ -1337,6 +1337,8 @@ button {
 
 .project-card {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card__header {
@@ -1409,6 +1411,9 @@ button {
 
 .project-card__body {
   padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .project-card__body h3 {
@@ -1448,6 +1453,7 @@ button {
   display: flex;
   gap: 0.6rem;
   flex-wrap: wrap;
+  margin-top: auto;
 }
 
 /* ── Featured Project Spotlight ── */
@@ -1477,6 +1483,12 @@ button {
   flex: 1;
   height: 1px;
   background: var(--c-border);
+}
+
+.spotlight-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .spotlight-card {
